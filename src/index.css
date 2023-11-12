@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 320px;
+  background-color: #150E28;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .circle {
+    background-color: hsla(266, 95%, 36%, 0.596);
+    width: 300px;
+    height: 300px;
+    filter: blur(65px);
+    border-radius: 50%;
+  }
+
+  .szh-accordion__item-content {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateY(20%);
+      opacity: 0;
+      display: none;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      display: block;
+    }
+  }
+
+  .active {
+    animation-name: slide;
+    animation-duration: 2s;
+
+  }
+}
