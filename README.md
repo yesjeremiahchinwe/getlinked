@@ -1,13 +1,12 @@
 # Getlinked Tech Hackathon Website React.js
 
-
 ## Screenshot
 
 ![Desktop View](./public/getlinked_desktop.png)
 
 ## Links
 
-- Live Site URL: [Vercel](https://shopping-cart-dun-three.vercel.app/)
+- Live Site URL: [Vercel](https://getlinked-mu.vercel.app/)
 
 ## Built With
 

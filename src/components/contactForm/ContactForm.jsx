@@ -1,6 +1,6 @@
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export default function ContactForm() {
@@ -9,6 +9,14 @@ export default function ContactForm() {
     email: "",
     message: ""
   })
+
+  useEffect(() => {
+    if (!values.firstName && !values.email && !values.message) {
+      window.scrollTo({ top: 0, behavior: "auto" })
+    }
+
+  }, [values])
+
 
   const handleChange = (e) => {
     const { name, value } = e.target

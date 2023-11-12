@@ -9,11 +9,11 @@ export default function Timeline() {
         <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[100px] pt-[100px] lg:pb-[200px] overflow-x-hidden flex flex-col justify-center items-center relative">
 
            <div className="lg:w-[90%] mx-auto">
-                    <img src={bigStar} alt="Star" className="absolute w-6 top-[5%] left-[20%]" />
+                    <img src={bigStar} alt="Star" className="absolute w-4 top-[5%] left-[20%]" />
 
-                    <img src={grayStar} alt="Star" className="w-6 absolute left-[30%] lg:left-[20%] top-[76%] lg:top-[80%] animate-pulse z-30 block" />
+                    <img src={grayStar} alt="Star" className="w-4 absolute left-[90%] lg:left-[20%] top-[76%] lg:top-[80%] animate-pulse z-30 block" />
 
-                    <img src={star} alt="Star" className="absolute w-6 animate-pulse left-[80%] lg:left-[90%] top-[85%]" />
+                    <img src={star} alt="Star" className="absolute w-4 animate-pulse left-[50%] lg:left-[90%] top-[80%] lg:top-[85%]" />
                 
 
                 <h2 className="mx-auto text-center text-[2.25rem]">Timeline</h2>
