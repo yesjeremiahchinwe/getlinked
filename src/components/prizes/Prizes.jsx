@@ -11,7 +11,7 @@ import smallStar from "./assets/smallStar.png"
 export default function Prizes() {
 
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[150px] pt-[100px] overflow-x-hidden flex flex-col justify-center items-center">
+        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 py-[200px] overflow-x-hidden flex flex-col justify-center items-center">
 
             <div className="lg:w-[90%] columns is-desktop lg:justify-between mx-auto relative flex flex-col items-center lg:items-end justify-center gap-12">
                 <div className="column flex flex-col items-center lg:items-start">
@@ -22,15 +22,15 @@ export default function Prizes() {
                     <p className="mx-auto lg:mx-0 lg:w-[70%] text-[1.15rem] leading-[1.7rem] text-center w-full lg:text-start z-30">Highlight of the prizes or rewards for winners and for participants.</p>
                 </div>
 
-                <img src={grayStar} alt="Star" className="w-6 absolute left-[80%] top-[100%] lg:top-[92%] animate-pulse z-30" />
+                <img src={grayStar} alt="Star" className="w-4 absolute left-[80%] top-[100%] lg:top-[92%] animate-pulse z-30" />
 
-                <img src={star} alt="Star" className="absolute w-6 top-[30%] animate-pulse left-[50%]" />
+                <img src={star} alt="Star" className="absolute w-4 top-[30%] animate-pulse left-[50%]" />
 
-                <img src={star} alt="Star" className="absolute w-6 top-[50%] animate-pulse left-[90%] lg:left-[100%]" />
+                <img src={star} alt="Star" className="absolute w-4 top-[60%] animate-pulse left-[90%] lg:left-[100%]" />
 
-                <img src={smallStar} alt=" Star" className="absolute w-4 top-[5%] left-[80%] animate-pulse" />
+                <img src={smallStar} alt=" Star" className="absolute w-4 top-[5%] left-[90%] animate-pulse" />
 
-                <img src={smallStar} alt=" Star" className="absolute w-4 top-0 left-[20%] animate-pulse" />
+                <img src={smallStar} alt=" Star" className="absolute w-4 top-0 left-[10%] animate-pulse" />
 
                 <div className="columns py-16 is-desktop lg:w-[90%] mx-auto is-vcentered is-centered relative">
                     <div className="circle absolute top-0 left-[10%]"></div>
@@ -45,8 +45,8 @@ export default function Prizes() {
                         <img src={secondP} alt="" className="w-[30%]" />
                         <img src={firstP} alt="" className="w-[40%]" />
                         <img src={thirdP} alt="" className="w-[30%] z-30" />
-                        <div className="circle absolute top-[60%] left-[80%] lg:right-0 lg:top-[70%]"></div>
                     </article>
+                    <div className="circle absolute top-[80%] left-[40%] lg:right-0 lg:top-[70%]"></div>
                 </div>
             </div>
         </section>

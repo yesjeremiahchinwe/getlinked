@@ -23,13 +23,13 @@ export default function FQA() {
 
                     <img src={questionMark} alt="Question Mark" className="absolute top-0 left-[50%] w-6" />
 
-                    <img src={grayStar} alt="Star" className="w-6 absolute left-0 top-[50%] animate-pulse z-30 block" />
+                    <img src={grayStar} alt="Star" className="w-4 absolute left-0 top-[50%] animate-pulse z-30 block" />
 
-                    <img src={star} alt="Star" className="absolute top-[100%] bottom-0 animate-pulse left-[80%]" />
+                    <img src={star} alt="Star" className="absolute w-4 top-[80%] bottom-0 animate-pulse left-[95%]" />
 
-                    <img src={smallStar} alt=" Star" className="absolute -top-12 left-[44%] animate-pulse" />
+                    <img src={smallStar} alt=" Star" className="absolute w-4 -top-12 left-[44%] animate-pulse" />
 
-                    <img src={smallStar} alt=" Star" className="absolute top-24 left-[5%] animate-pulse" />
+                    <img src={smallStar} alt=" Star" className="absolute w-4 top-24 left-[5%] animate-pulse" />
                 </div>
 
                 <div className="circle absolute -top-[10%] -left-[30%] lg:left-[10%] lg:top-0"></div>
@@ -37,7 +37,7 @@ export default function FQA() {
                 <div className="circle absolute top-[50%] left-[50%] lg:right-0 lg:top-[70%]"></div>
 
                 <div className="relative mt-2 lg:mt-0 z-30 column">
-                    <img src={bigStar} alt="Star" className="w-6 animate-pulse absolute -top-16 left-[10%]" />
+                    <img src={bigStar} alt="Star" className="w-4 animate-pulse absolute -top-16 left-[10%]" />
 
                     <h2 className="font-[700] text-[2.25rem] sm:text-[2.5rem] leading-[3rem] sm:leading-[3rem] text-center lg:text-start">Frequently Ask</h2>
 

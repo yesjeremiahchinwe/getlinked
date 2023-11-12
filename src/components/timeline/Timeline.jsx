@@ -11,9 +11,9 @@ export default function Timeline() {
            <div className="lg:w-[90%] mx-auto">
                     <img src={bigStar} alt="Star" className="absolute w-4 top-[5%] left-[20%]" />
 
-                    <img src={grayStar} alt="Star" className="w-4 absolute left-[90%] lg:left-[20%] top-[76%] lg:top-[80%] animate-pulse z-30 block" />
+                    <img src={grayStar} alt="Star" className="w-4 absolute left-[90%] lg:left-[20%] top-[76%] lg:top-[80%] animate-pulse z-30  hidden lg:block" />
 
-                    <img src={star} alt="Star" className="absolute w-4 animate-pulse left-[50%] lg:left-[90%] top-[80%] lg:top-[85%]" />
+                    <img src={star} alt="Star" className="absolute w-4 animate-pulse left-14 lg:left-[90%] top-[80%] hidden lg:block lg:top-[85%]" />
                 
 
                 <h2 className="mx-auto text-center text-[2.25rem]">Timeline</h2>

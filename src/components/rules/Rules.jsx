@@ -12,7 +12,7 @@ export default function Rules() {
             <div className="w-full columns is-desktop lg:justify-between lg:w-[90%] mx-auto is-vcentered is-centered relative columns is-desktop lg:items-center is-flex-direction-row-reverse">
                 <div className="relative z-30 column">
                     <img src={rulesImage} alt="A lady sitting on a chair" className={`$ w-full block`} />
-                    <img src={star} alt="Star" className="absolute top-[20%] animate-pulse lg:top-[70%]" />
+                    <img src={star} alt="Star" className="absolute w-4 top-[20%] animate-pulse lg:top-[70%]" />
                 </div>
 
                 <div className="circle absolute -top-[10%] -left-[30%] lg:left-[10%] lg:top-0"></div>
@@ -20,7 +20,7 @@ export default function Rules() {
                 <div className="circle absolute top-[50%] left-[50%] lg:right-0 lg:top-[50%]"></div>
 
                 <div className="lg:w-[80%] relative z-30 column">
-                    <img src={grayStar} alt="Star" className="absolute left-[40%] -top-[20%] animate-pulse z-30 block" />
+                    <img src={grayStar} alt="Star" className="absolute left-[40%] w-4 -top-[20%] animate-pulse z-30 block" />
 
                     <h2 className="font-[700] text-[2.25rem] sm:text-[2.5rem] leading-[3rem] sm:leading-[3rem] text-center lg:text-start">Rules and</h2>
 

@@ -12,10 +12,10 @@ export default function Attributes() {
 
             <div className="columns is-desktop lg:justify-between lg:w-[90%] mx-auto is-vcentered is-centered relative">
                     <div className="relative z-30 column">
-                        <img src={bigStar} alt="Star" className="absolute w-6 -top-[20%] left-[20%]" />
+                        <img src={bigStar} alt="Star" className="absolute w-4 -top-[20%] left-[20%]" />
                         <img src={attributeImage} alt="" className="flex-shrink-0 w-full lg:w-[1200px]" />
-                        <img src={grayStar} alt="Star" className="w-6 absolute left-[50%] top-[60%] animate-pulse z-30 block" />
-                        <img src={star} alt="Star" className="absolute w-6 animate-pulse left-[90%] top-[90%]" />
+                        <img src={grayStar} alt="Star" className="w-4 absolute left-[50%] top-[60%] animate-pulse z-30 block" />
+                        <img src={star} alt="Star" className="absolute w-4 animate-pulse left-[90%] top-[90%]" />
                     </div>
 
                     <div className="circle absolute top-[20%] lg:top-[40%] left-0 lg:left-[10%] "></div>
