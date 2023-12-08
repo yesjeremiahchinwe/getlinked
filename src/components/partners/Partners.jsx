@@ -1,11 +1,14 @@
 import star from "./assets/star.png"
 import smallStar from "./assets/smallStar.png"
 import partners from "./assets/partners.png"
+import AnimateComponent from "../animation/AnimateComponent"
+
 
 export default function Partners() {
 
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[150px] pt-[100px] overflow-x-hidden flex flex-col justify-center items-center">
+        <AnimateComponent
+            className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[150px] pt-[100px] overflow-x-hidden flex flex-col justify-center items-center">
 
             <div className="lg:w-[90%] mx-auto relative">
                 <h2 className="font-[700] text-[2.25rem] sm:text-[2.5rem] leading-[3rem] sm:leading-[3rem] text-center">Partners and Sponsors</h2>
@@ -26,6 +29,6 @@ export default function Partners() {
 
                 <img src={smallStar} alt=" Star" className="absolute w-4 top-[35%] left-[50%] animate-pulse" />
             </div>
-        </section>
+        </AnimateComponent>
     )
 }

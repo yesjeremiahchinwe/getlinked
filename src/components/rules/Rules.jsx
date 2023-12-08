@@ -1,12 +1,13 @@
 import rulesImage from "./assets/rulesImage.png";
 import grayStar from "./assets/gray_star.png";
 import star from "./assets/star.png"
+import AnimateComponent from "../animation/AnimateComponent";
 
 
 export default function Rules() {
 
     return (
-        <section
+        <AnimateComponent
             className={`min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 py-[150px] lg:py-[100px] overflow-x-hidden justify-center flex items-center`}>
 
             <div className="w-full columns is-desktop lg:justify-between lg:w-[90%] mx-auto is-vcentered is-centered relative columns is-desktop lg:items-center is-flex-direction-row-reverse">
@@ -34,6 +35,6 @@ export default function Rules() {
                         that&apos;s what we&apos;re all about!</p>
                 </div>
             </div>
-        </section>
+        </AnimateComponent>
     )
 }

@@ -2,13 +2,14 @@ import bigIdea from "./assets/bigIdea.png"
 import smallStar from "./assets/smallStar.png"
 import bigStar from "./assets/bigStar.png"
 import arrow from "./assets/arrow.png"
+import AnimateComponent from "../animation/AnimateComponent"
 
 
 export default function BigIdea() {
 
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 py-[200px] lg:px-0 overflow-x-hidden flex flex-col justify-center items-center">
-
+        <AnimateComponent
+            className={`min-h-screen text-[#F8F8F8] px-4 py-[200px] lg:px-0 overflow-x-hidden flex flex-col justify-center items-center`}>
             <div
                 className="columns is-desktop lg:justify-between lg:w-[90%] mx-auto is-vcentered is-centered">
                 <div className="relative mb-4 column">
@@ -32,6 +33,6 @@ export default function BigIdea() {
                         that&apos;s what we&apos;re all about!</p>
                 </div>
             </div>
-        </section>
+        </AnimateComponent>
     )
 }

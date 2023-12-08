@@ -5,13 +5,14 @@ import thirdP from "./assets/3rdposition.png"
 import grayStar from "./assets/gray_star.png"
 import star from "./assets/star.png"
 import smallStar from "./assets/smallStar.png"
-
+import AnimateComponent from "../animation/AnimateComponent"
 
 
 export default function Prizes() {
 
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 py-[200px] overflow-x-hidden flex flex-col justify-center items-center">
+        <AnimateComponent 
+        className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 py-[200px] overflow-x-hidden flex flex-col justify-center items-center">
 
             <div className="lg:w-[90%] columns is-desktop lg:justify-between mx-auto relative flex flex-col items-center lg:items-end justify-center gap-12">
                 <div className="column flex flex-col items-center lg:items-start">
@@ -49,6 +50,6 @@ export default function Prizes() {
                     <div className="circle absolute top-[80%] left-[40%] lg:right-0 lg:top-[70%]"></div>
                 </div>
             </div>
-        </section>
+        </AnimateComponent>
     )
 }

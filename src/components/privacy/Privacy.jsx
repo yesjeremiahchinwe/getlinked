@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import smallStar from "./assets/smallStar.png"
 import star from "./assets/star.png"
 import gray_star from "./assets/gray_star.png"
-
+import AnimateComponent from "../animation/AnimateComponent"
 
 
 export default function Privacy() {
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 py-[100px] lg:px-0 lg:py-[150px] overflow-x-hidden flex flex-col justify-center items-center">
-
+        <AnimateComponent
+            className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 py-[100px] lg:px-0 lg:py-[150px] overflow-x-hidden flex flex-col justify-center items-center">
             <div className="flex flex-col-reverse gap-20 lg:flex-row-reverse justify-center items-center lg:justify-between lg:w-[90%] mx-auto relative">
 
                 <div className="mb-4 w-full relative flex flex-col">
@@ -90,10 +90,8 @@ export default function Privacy() {
                             <Link to="#" className="hover:text-white">Read More</Link>
                         </button>
                     </div>
-
-
                 </div>
             </div>
-        </section>
+        </AnimateComponent>
     )
 }

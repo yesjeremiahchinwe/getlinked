@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className={`bg-[rgb(21,14,40,1)] lg:bg-[rgb(21,14,40,0.7)] lg:backdrop-blur-[15px] overflow-x-hidden flex items-center justify-between text-[#F8F8F8] py-4 px-6 sm:px-10 lg:px-0 ${show ? "z-10" : "z-40"} w-full fixed top-0`}>
 
-      <div className="w-full flex items-center lg:justify-between lg:w-[86%] mx-auto is-vcentered is-centered">
+      <div className="w-full flex items-center lg:justify-between lg:w-[86%] max-w-[1300px] mx-auto is-vcentered is-centered">
         <Link to="/" className="">
           <img
             src={homeIcon}

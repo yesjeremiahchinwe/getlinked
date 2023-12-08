@@ -33,7 +33,7 @@ export default function Hero({ heroVariants }) {
 
             <div className="circle absolute lg:left-[200px] top-[70px] "></div>
 
-            <div className="columns is-desktop lg:justify-between lg:w-[90%] mx-auto is-vcentered is-centered relative">
+            <div className="columns is-desktop lg:justify-between lg:w-[90%] max-w-[1300px] mx-auto is-vcentered is-centered relative">
                 <div className="z-30 column">
                     <h2 className="font-[700] text-[2.25rem] sm:text-[4rem] leading-[3rem] sm:leading-[5rem] text-center lg:text-start sm:mt-12 lg:mt-0">getlinked Tech</h2>
 

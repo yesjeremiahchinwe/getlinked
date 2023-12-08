@@ -5,13 +5,14 @@ import bigStar from "./assets/bigStar.png"
 import smallStar from "./assets/smallStar.png"
 import questionMark from "./assets/questionMark.png"
 import MyAccordion from "../accordion/Accordion";
-// import MyAccordion from "../accordion/Accordion";
+import AnimateComponent from "../animation/AnimateComponent"
 
 
 export default function FQA() {
 
     return (
-        <section className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[150px] pt-[100px] overflow-x-hidden flex flex-col justify-center items-center">
+        <AnimateComponent 
+        className="min-h-screen bg-[#150E28] text-[#F8F8F8] px-4 lg:px-0 pb-[150px] pt-[100px] overflow-x-hidden flex flex-col justify-center items-center">
 
             <div className="flex flex-col lg:flex-row-reverse items-center lg:w-[90%] mx-auto columns is-desktop lg:justify-between is-vcentered is-centered relative is-flex-direction-column-reverse">
                 <div className="relative z-30 column">
@@ -43,13 +44,11 @@ export default function FQA() {
 
                     <h2 className="font-[700] text-[2.25rem] sm:text-[2.5rem] leading-[2.5rem] text-center lg:text-start sm:leading-[3rem] text-[#D434FE] pb-6">Question</h2>
 
-                    <p className="max-w-[90%] sm:max-w-[80%] xl:max-w-[70%] mx-auto lg:mx-0 text-[1.05rem] leading-[1.7rem] text-center lg:text-start">We got answers to the questions that you might
-                        want to ask about getlinked Hackathon 1.0</p>
+                    <p className="max-w-[90%] sm:max-w-[80%] xl:max-w-[70%] mx-auto lg:mx-0 text-[1.05rem] leading-[1.7rem] text-center lg:text-start">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
 
-                    {/* <MyAccordion /> */}
                     <MyAccordion />
                 </div>
             </div>
-        </section>
+        </AnimateComponent>
     )
 }
